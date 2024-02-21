@@ -1,0 +1,53 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Контейнер */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Поле ввода */
+#keyword {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Кнопка поиска */
+#search-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Контейнер изображений */
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Изображение */
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
